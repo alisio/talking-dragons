@@ -2,6 +2,13 @@
 
 TalkingDragons Bash script utilizes the Whisper speech recognition model to transcribe MP3 files in a specific folder. It creates a transcription file for each MP3 file if it doesn't already exist.
 
+
+![dragao_do_mar](./images/dragao_do_mar.png)
+
+The name "TalkingDragons" is inspired by the cultural significance of the Dragão do Mar. "Dragão do Mar, or 'Sea Dragon,' is the honored name of Francisco José do Nascimento, an Afro-Brazilian jangadeiro and abolitionist, who courageously led a strike in 1881, refusing to transport enslaved individuals in Fortaleza, ultimately contributing to the abolition of slavery in Ceará, Brazil in 1884."
+
+For more information regarding Francisco José do Nascimento checkout his [wikipedia article](https://en.wikipedia.org/wiki/Dragão_do_Mar)
+
 ## Usage
 
 1. Clone the repository:
@@ -44,11 +51,6 @@ Check whisper documentation for more information regarding available models and 
 - Whisper
 
 Teste using MacOS Ventura
-
-
-## Origin of the Name
-
-The name "TalkingDragons" is inspired by the cultural significance of the Dragão do Mar Cultural Center in Ceará, Brazil, 
 
 ## License
 
