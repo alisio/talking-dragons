@@ -43,6 +43,9 @@ Check whisper documentation for more information regarding available models and 
 - OpenAI's tiktoken
 - Whisper
 
+Teste using MacOS Ventura
+
+
 ## Origin of the Name
 
 The name "TalkingDragons" is inspired by the cultural significance of the Dragão do Mar Cultural Center in Ceará, Brazil, 
