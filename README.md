@@ -1,6 +1,6 @@
 # TalkingDragons: Batch Audio Transcription with Whisper
 
-TalkingDragons Bash script utilizes the Whisper speech recognition model to transcribe MP3 files in a specific folder. It creates a transcription txt file for each MP3 file if it doesn't already exist.
+TalkingDragons Bash script utilizes the Whisper speech recognition model to transcribe all MP3 files in a specific folder. It creates a transcription txt file for each MP3 file if it doesn't already exist.
 
 
 ![dragao_do_mar](./images/dragao_do_mar.png)
@@ -23,7 +23,7 @@ For more information regarding Francisco José do Nascimento checkout his [wikip
     cd talkingdragons
     ```
 
-3. Run the script, providing the input folder as an argument:
+3. Run the script, providing the input folder with the mp3 files as an argument:
 
     ```bash
     ./transcribe.sh /path/to/your/input/folder
@@ -38,8 +38,8 @@ Ensure you have the Whisper executable installed. You can follow the installatio
 Set the script parameters as needed:
 
 * `WHISPER_EXECUTABLE`: whisper executable
-* `MODEL_SIZE`: Model Size (e.g "tiny");
-* `LANGUAGE`: Model Language (e.g "pt");
+* `MODEL_SIZE`: Model Size (default: "tiny");
+* `LANGUAGE`: Model Language (default: "pt");
 
 Check whisper documentation for more information regarding available models and languages.
 
@@ -50,7 +50,7 @@ Check whisper documentation for more information regarding available models and 
 - OpenAI's tiktoken
 - Whisper
 
-Teste using MacOS Ventura
+Tested using MacOS Ventura
 
 ## License
 
