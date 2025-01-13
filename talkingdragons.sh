@@ -4,7 +4,7 @@
 WHISPER_EXECUTABLE="whisper"
 
 # Model size and language
-MODEL_SIZE="tiny"
+MODEL_SIZE="base"
 LANGUAGE="pt"
 
 # Check if the correct number of arguments has been provided
