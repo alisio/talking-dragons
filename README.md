@@ -38,7 +38,7 @@ Ensure you have the Whisper executable installed. You can follow the installatio
 Set the script parameters as needed:
 
 * `WHISPER_EXECUTABLE`: whisper executable
-* `MODEL_SIZE`: Model Size (default: "tiny");
+* `MODEL_SIZE`: Model Size (default: "base");
 * `LANGUAGE`: Model Language (default: "pt");
 
 Check whisper documentation for more information regarding available models and languages.
