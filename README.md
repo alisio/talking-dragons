@@ -26,7 +26,7 @@ For more information regarding Francisco José do Nascimento checkout his [wikip
 3. Run the script, providing the input folder with the mp3 files as an argument:
 
     ```bash
-    ./transcribe.sh /path/to/your/input/folder
+    ./talkingdragons.sh /path/to/your/input/folder
     ```
 
 ## Installation
