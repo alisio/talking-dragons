@@ -1,6 +1,6 @@
 # TalkingDragons: Batch Audio Transcription with Whisper
 
-TalkingDragons Bash script utilizes the Whisper speech recognition model to transcribe all MP3 files in a specific folder. It creates a transcription txt file for each MP3 file if it doesn't already exist.
+TalkingDragons Bash script utilizes the Whisper speech recognition model to transcribe all ffmpeg compatible audio and video files in a specific folder. It creates a transcription txt file for each media file if it doesn't already exist.
 
 
 ![dragao_do_mar](./images/dragao_do_mar.png)
@@ -23,7 +23,7 @@ For more information regarding Francisco José do Nascimento checkout his [wikip
     cd talkingdragons
     ```
 
-3. Run the script, providing the input folder with the mp3 files as an argument:
+3. Run the script, providing the input folder as an argument:
 
     ```bash
     ./talkingdragons.sh /path/to/your/input/folder
